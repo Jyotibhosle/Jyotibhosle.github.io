@@ -500,6 +500,13 @@ header {
   transform: scale(1.2);
 }
 
+.contact_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 /*Contact*/
 .contact_input {
   width: 100%;
