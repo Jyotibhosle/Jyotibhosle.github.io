@@ -516,13 +516,6 @@ header {
   flex-direction: column;
 }
 
-.info-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 
 /*Footer*/
 .footer {
