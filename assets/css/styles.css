@@ -508,15 +508,9 @@ header {
 }
 
 /*Contact*/
-.contact_input {
-  width: 100%;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: 0.5rem;
-  border: 1.5px solid var(--second-color);
-  outline: none;
-  margin-bottom: var(--mb-4);
+.info-box {
+  justify-content: center;
+  align-items: center;
 }
 
 .contact_button {
@@ -526,6 +520,8 @@ header {
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .captcha {
