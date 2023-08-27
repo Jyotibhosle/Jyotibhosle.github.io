@@ -508,27 +508,21 @@ header {
 }
 
 /*Contact*/
-.info-box {
-  justify-content: center;
-  align-items: center;
-}
 
-.contact_button {
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto;
-  justify-content: center;
-  align-items: center;
-}
-
-.captcha {
+.contact_container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
+
+.info-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 
 /*Footer*/
 .footer {
